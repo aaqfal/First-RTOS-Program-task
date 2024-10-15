@@ -6,7 +6,7 @@ This project is an implementation of a system based on STM32 that measures volta
 
 This project provides a practical example of how to:
 - Measure voltage using the STM32's ADC.
-- Use GPIO to control an LED.
+- Use GPIO to control a LED.
 - Display voltage readings on a terminal using UART.
 - Monitor a physical button to toggle the LED and display notifications.
 
@@ -25,10 +25,11 @@ The system includes the following tasks:
    - Monitors and controls the state of the LED (on/off).
    
 4. **Task UART**:
-   - Displays ADC voltage readings on the terminal.
+   - Displays menu and ADC voltage readings on the terminal.
+   - Displays state of the button and LED.
    
 5. **Task Button**:
-   - Displays a menu and voltage readings from the ADC, and shows the state of the button and LED.
+   - 
 
 ## Hardware Used
 [Photo](https://drive.google.com/uc?export=view&id=1vKf5dllwltwZLlrbhl3RC-ONb9Geyj1T)
@@ -36,6 +37,8 @@ The system includes the following tasks:
 - Physical button
 - LED
 - Potentiometer
+- ST-Link Mini Debugger
+- USB to TTL UART
 
 ## Demo Video
 
