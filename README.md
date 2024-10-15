@@ -29,7 +29,7 @@ The system includes the following tasks:
    - Displays state of the button and LED.
    
 5. **Task Button**:
-   - 
+   - Read button state (pressed or not) and set LED state (ON or OFF) based on button state.
 
 ## Hardware Used
 [Photo](https://drive.google.com/uc?export=view&id=1vKf5dllwltwZLlrbhl3RC-ONb9Geyj1T)
